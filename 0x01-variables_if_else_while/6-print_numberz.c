@@ -2,17 +2,17 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int d;
+	int i;
 
-	for (d = '0'; d <= '10'; d++)
-		putchar(d);
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+		putchar("%d", i);
+	putchar("\n");
 
 	return (0);
 }

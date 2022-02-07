@@ -1,17 +1,19 @@
 #include <stdio.h>
-#include "_putchar.c"
+#include "main.h"
 /**
-* main - main.c
+* main - Entry
 *
 * Return: 0
 */
 int main(void)
 {
-	char putchar[9] = "_putchar\n"
-		; int i
-	for (i = 0; i < 10; i++)
-		{
-		_putchar(putchar[i]);
+	char ch[] = "_putchar";
+	int i;
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(ch[i]);
 	}
+	_putchar ('\n');
 	return (0);
 }

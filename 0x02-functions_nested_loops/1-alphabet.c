@@ -3,15 +3,15 @@
 /**
  * main - Entry
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-int void print_alphabet(void)
+int main(void)
 {
-	int n;
+	char low;
 
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
+	for (low = 'a'; low <= 'z'; low++)
+		_putchar(low);
 	_putchar('\n');
+
+	return (0);
 }

@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * print_sign - rdxrdcv
- * @n: dfgh
+ * print_sign - a function that prints the sign of a number
+ * @n: Something
  * Return: 0,1,-1
  */
 int print_sign(int n)

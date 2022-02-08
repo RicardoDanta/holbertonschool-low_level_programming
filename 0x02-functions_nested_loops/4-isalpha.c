@@ -1,9 +1,14 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * _isalpha - a function that checks for alphabetic character
- * @c: isalpha
+ * _isalpha - xdd
+ * @c: aaaaa
  * Return: 1 if is a letter, 0 if is otherwise
  */
 int _isalpha(int c)
 {
-	if 
+	if (c > 65 && c < 122)
+		return (1);
+	else
+		return (0);
+}

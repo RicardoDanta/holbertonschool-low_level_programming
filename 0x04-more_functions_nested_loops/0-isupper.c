@@ -4,7 +4,7 @@
  *@c: Algo
  * Return: 1 if c is uppercase, 0 if otherwise
  */
-int _islower(int c)
+int _isupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 

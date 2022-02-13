@@ -1,1 +1,1 @@
-void reset_to_98(int *n);
+Pointers, arrays and strings

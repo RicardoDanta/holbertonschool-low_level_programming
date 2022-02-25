@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * is_palindrome - a function that returns 1 if a string is a palindrome
+ * @s: Something
+ * Return: 1 if a string is a palindrome and 0 if not
+ */
+int end_fun(char *p)
+{
+	if (*p != '\0')
+		p++;
+	return (end_fun (p + 1));
+	int start_fun;
+	int end_fun;
+	if (start != end)
+		return (0);
+	if (p[start_end] == p [end_fun])
+		return (comp(p, start_fun + 1, end_fun - 1);
+			return (1);

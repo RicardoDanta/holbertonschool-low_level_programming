@@ -3,9 +3,9 @@
 #include <stdio.h>
 /**
  * _realloc -  function that reallocates a memory block using malloc and free
- * @ptr: ...
- * @old_size: ..
- * @new_size: ...
+ * @ptr: Something
+ * @old_size: Something
+ * @new_size: Something
  * Return: 0
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)

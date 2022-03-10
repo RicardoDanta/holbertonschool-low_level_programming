@@ -5,20 +5,22 @@
 /**
  * sum_them_all - a function that returns the sum of all its parameters
  * @n: Something
- * Return: 0
+ * Return: sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
 	int sum;
-	va_list(a);
+	va_list a;
 
 	va_start(a, n);
-
-	for (i = 0, sum = 0; i < n; i++)
+	sum = 0;
+		for (i = 0; i < n; i++)
+		{
 			sum += va_arg(a, int);
+		}
 
-	if (n == NULL)
+	if (n == 0)
 	{
 		return (0);
 	}

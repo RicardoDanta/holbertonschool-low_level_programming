@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
- * @add_nodeint - a function that adds a new node at the beginning of a list
+ * add_nodeint - a function that adds a new node at the beginning of a list
  * @head: Something
  * @n: Something
  * Return: 0
  */
+
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *newnode;

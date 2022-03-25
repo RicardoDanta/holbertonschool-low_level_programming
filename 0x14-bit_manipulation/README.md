@@ -1,1 +1,1 @@
-Bit manupaltion
+Bit manupaltion.

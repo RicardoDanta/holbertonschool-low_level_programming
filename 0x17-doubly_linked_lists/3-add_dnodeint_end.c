@@ -6,11 +6,11 @@
  * @n: Something
  * Return: 0
  */
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *newnode, *lastnode;
 
-	newnode = malloc(sizeof(listint_t));
+	newnode = malloc(sizeof(dlistint_t));
 
 	if (newnode == NULL)
 		return (NULL);

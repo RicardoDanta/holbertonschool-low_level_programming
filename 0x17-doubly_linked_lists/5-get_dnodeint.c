@@ -1,22 +1,28 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - a function that returns the nth node
+ * get_dnodeint_at_index - a function that returns the nth node
  * @head: Something
  * @index: Something
  * Return: 0
  */
-dlistint_t *get_nodeint_at_index(dlistint_t *head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *nd;
 	unsigned int i;
+	i = 0;
 
-	for (nd = 0; nd < i; nd++)
-	{
+	nd = head;
+
 		if (head == NULL)
 			return (NULL);
+		while (nd != NULL)
+		{
+			if (i == index)
+				return (nd);
 
-			head = head->next;
-	}
-			return(head);
+			i++;
+			nd = nd->next;
+		}
+			return (nd);
 }

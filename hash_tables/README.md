@@ -1,6 +1,6 @@
-## Hash Tables
+# Hash Tables
 
-# General Learning Objetives:
+## General Learning Objetives:
 
 - What is a hash function
 - What makes a good hash function
@@ -9,6 +9,6 @@
 - What are the advantages and drawbacks of using hash tables
 - What are the most common use cases of hash tables
 
-# Python Dictionaries
+## Python Dictionaries
 
 Python dictionaries are implemented using hash tables. When you will be done with this project, you will be able to better understand the power and simplicity of Python dictionaries. So much is actually happening when you type d = {'a': 1, 'b': 2}, but everything looks so simple for the user. Python doesn’t use the exact same implementation than the one you will work on today though. If you are curious on how it works under the hood, here is a good blog post about how dictionaries are implemented in Python 2.7 (not mandatory).
